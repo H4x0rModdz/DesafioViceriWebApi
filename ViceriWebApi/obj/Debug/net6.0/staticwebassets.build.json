@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "45AEaYsyAetC+oWvsTFBnbJMnE18VPmpMXp51n5nGf0=",
+  "Source": "ViceriWebApi",
+  "BasePath": "_content/ViceriWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
