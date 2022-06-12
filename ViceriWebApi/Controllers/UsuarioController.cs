@@ -26,7 +26,7 @@ namespace ViceriWebApi.Controllers
 
                 if (listaUsuarios.Count() < 1)
                 {
-                    return StatusCode((int)HttpStatusCode.NoContent);
+                    return NoContent();
                 }
 
                 return Ok(listaUsuarios);
@@ -49,7 +49,7 @@ namespace ViceriWebApi.Controllers
                 _service.GetById(id);
 
                 if (_service.GetById(id) is null)
-                    return StatusCode((int)HttpStatusCode.BadRequest);
+                    return BadRequest();
 
                 return Ok(_service.GetById(id));
             }

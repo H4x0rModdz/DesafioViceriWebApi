@@ -6,7 +6,7 @@ namespace ViceriWebApi.Models
     public class Usuario
     {
         [Key]
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public Guid Id { get; set; }
         [Required(ErrorMessage = "Preencha seu Nome corretamente")]
         public string Nome { get; set; }
         [Required(ErrorMessage = "Preencha o Email corretamente")]
@@ -29,6 +29,7 @@ namespace ViceriWebApi.Models
         [Required(ErrorMessage = "Preencha o CPF corretamente")]
         public string CPF { get; set; }
         [Required(ErrorMessage = "Preencha sua Data de Nascimento corretamente")]
+        [DataType(DataType.Date)]
         public DateTime DataNascimento { get; set; }
     }
 }

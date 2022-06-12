@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ViceriWebApi\\ViceriWebApi\\ViceriWebApi.csproj": {}
+    "C:\\dev\\desafio11062022\\DesafioViceriWebApi\\ViceriWebApi\\ViceriWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ViceriWebApi\\ViceriWebApi\\ViceriWebApi.csproj": {
+    "C:\\dev\\desafio11062022\\DesafioViceriWebApi\\ViceriWebApi\\ViceriWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ViceriWebApi\\ViceriWebApi\\ViceriWebApi.csproj",
+        "projectUniqueName": "C:\\dev\\desafio11062022\\DesafioViceriWebApi\\ViceriWebApi\\ViceriWebApi.csproj",
         "projectName": "ViceriWebApi",
-        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ViceriWebApi\\ViceriWebApi\\ViceriWebApi.csproj",
+        "projectPath": "C:\\dev\\desafio11062022\\DesafioViceriWebApi\\ViceriWebApi\\ViceriWebApi.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ViceriWebApi\\ViceriWebApi\\obj\\",
+        "outputPath": "C:\\dev\\desafio11062022\\DesafioViceriWebApi\\ViceriWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

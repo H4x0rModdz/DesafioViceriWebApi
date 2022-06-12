@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5hxwE2bnwVNEZ7m3jRUzWi5GSwm9K6Df0Zqnxt2Wd/OQEvbQieyVB+I4RZ5HYBfNB37nywLrZgyhSJEW3499Rg==",
+  "dgSpecHash": "FFAWh/pGtjqPPuU7j975EagZsHFb/iC5oYJhdxgI3aRfNSa7dI5lQGsp8/3Df2JbwOhUUxQBeoMvmO7sEnf9bQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ViceriWebApi\\ViceriWebApi\\ViceriWebApi.csproj",
+  "projectFilePath": "C:\\dev\\desafio11062022\\DesafioViceriWebApi\\ViceriWebApi\\ViceriWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

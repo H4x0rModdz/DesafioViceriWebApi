@@ -18,7 +18,6 @@ namespace ViceriWebApi.Services
 
         public Usuario GetById(Guid id)
         {
-
             if (_usuarioRepository.EhVerificaSeUsuarioExiste(id))
                 throw new ArgumentException("Id de Usuário não existe");
 
@@ -37,6 +36,8 @@ namespace ViceriWebApi.Services
 
             if (_usuarioRepository.EhCpfJaCadastrado(usuario))
                 throw new ArgumentException("CPF já existe");
+
+            usuario.DataNascimento = usuario.DataNascimento.Date;
 
             _usuarioRepository.Add(usuario);
 

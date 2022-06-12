@@ -23,7 +23,7 @@ namespace ViceriWebApi.Repository
         }
 
         public void Add(Usuario usuario)
-        {
+        {   
             _context.Usuarios.Add(usuario);
             _context.SaveChanges();
         }
@@ -36,7 +36,7 @@ namespace ViceriWebApi.Repository
             usuarioEncontrado.Senha = usuario.Senha;
             usuarioEncontrado.Email = usuario.Email;
             usuarioEncontrado.CPF = usuario.CPF;
-            usuarioEncontrado.DataNascimento = usuario.DataNascimento;
+            usuarioEncontrado.DataNascimento = usuario.DataNascimento.Date;
 
             _context.Usuarios.Update(usuarioEncontrado);
             _context.SaveChanges();
