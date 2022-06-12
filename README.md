@@ -8,7 +8,7 @@
 ######
 <strong>Dependências Utilizadas:</strong> Microsoft Entity Framework Core, SQL Server, VS Code Generator e o BCrypt.Net(para encriptografar minhas senhas). 
 ######
-<strong>Controller:</strong> Realizei tarefas com verificações em cada etapada(Adicionar, Deletar, Atualizar, Editar, Buscar por Id e Buscar Todos) por meio de Try Catch para sempre retornar Exceptions caso o usuário utilize algum método de forma incorreta.
+<strong>Controller:</strong> Realizei tarefas com verificações em cada etapa(Adicionar, Deletar, Atualizar, Editar, Buscar por Id e Buscar Todos) por meio de Try Catch para sempre retornar Exceptions caso o usuário utilize algum método de forma incorreta.
 ######
 <strong>Repository:</strong> Em meu Repository criei três verificações booleanas (EhCpfJaCadastrado, EhEmailJaCadastrado e EhVerificaSeUsuarioExiste).
 <br/>Na <strong>EhCpfCadastrado</strong>, consultei o banco para me retornar uma lista de CPFs já cadastrados, caso me retornasse 0, o CPF estaria pronto para uso dentro do Cadastro de Usuários, caso me retornasse maior que 0(que já me colocaria na parte de edição, onde fiz pela lógica caso fosse meu próprio cpf "consultando pelo Id do usuário", ele me deixasse fazer a edição sem problemas. Caso fosse um CPF de outro Id, barrava a edição).
