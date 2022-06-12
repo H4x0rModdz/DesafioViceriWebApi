@@ -6,7 +6,7 @@
 # Resumo sobre a API
 <strong>Frameworks e Modelo do Projeto:</strong> Utilizei para começo da minha API o ASP.NET Core Web API com o Swagger(Onde fiz um modelo de camadas com Controller, Repository, Models e Service).
 ######
-<strong>Dependências Utilizadas:</strong> Microsoft Entity Framework Core, SQL Server, VS Code Generator e o BCrypt.Net(para encriptografar minhas senhas). 
+<strong>Dependências Utilizadas:</strong> Microsoft Entity Framework Core, SQL Server, VS Code Generator e o BCrypt.Net(para criptografar minhas senhas). 
 ######
 <strong>Controller:</strong> Realizei tarefas com verificações em cada etapa(Adicionar, Deletar, Atualizar, Editar, Buscar por Id e Buscar Todos) por meio de Try Catch para sempre retornar Exceptions caso o usuário utilize algum método de forma incorreta.
 ######
