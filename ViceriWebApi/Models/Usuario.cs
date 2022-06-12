@@ -27,8 +27,8 @@ namespace ViceriWebApi.Models
             }
         }
         [Required(ErrorMessage = "Preencha o CPF corretamente")]
-        public string CPF { get; set; }
         [StringLength(11, MinimumLength = 11)]
+        public string CPF { get; set; }
         [Required(ErrorMessage = "Preencha sua Data de Nascimento corretamente")]
         [DataType(DataType.Date)]
         public DateTime DataNascimento { get; set; }
