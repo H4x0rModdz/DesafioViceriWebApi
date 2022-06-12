@@ -77,7 +77,7 @@ namespace ViceriWebApi.Repository
 
             var ehProprioUsuario = usuarios.Where(u => u.Id == usuario.Id).FirstOrDefault() != null;
 
-            if (usuarios.Count == 0 || ehProprioUsuario)
+            if (ehProprioUsuario)
                 return false;
 
             return true;
