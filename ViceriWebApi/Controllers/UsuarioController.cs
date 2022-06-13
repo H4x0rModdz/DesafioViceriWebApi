@@ -25,9 +25,7 @@ namespace ViceriWebApi.Controllers
                 var listaUsuarios = _service.GetAll();
 
                 if (listaUsuarios.Count() < 1)
-                {
                     return NoContent();
-                }
 
                 return Ok(listaUsuarios);
             }
