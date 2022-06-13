@@ -9,11 +9,12 @@ namespace ViceriWebApi.Models
         public Guid Id { get; set; }
         [Required(ErrorMessage = "Preencha seu Nome corretamente")]
         public string Nome { get; set; }
-        [Required(ErrorMessage = "Preencha o Email corretamente")]
+        [Required(ErrorMessage = "Preencha seu Email corretamente")]
+        [StringLength(50, MinimumLength = 10)]
         public string Email { get; set; }
 
         private string _Senha;
-        [Required(ErrorMessage = "Preencha a Senha corretamente")]
+        [Required(ErrorMessage = "Preencha sua Senha corretamente")]
         public string Senha
         {
             get { return _Senha; }
@@ -26,7 +27,7 @@ namespace ViceriWebApi.Models
                     _Senha = BCrypt.Net.BCrypt.HashPassword(value);
             }
         }
-        [Required(ErrorMessage = "Preencha o CPF corretamente")]
+        [Required(ErrorMessage = "Preencha seu CPF corretamente")]
         [StringLength(11, MinimumLength = 11)]
         public string CPF { get; set; }
         [Required(ErrorMessage = "Preencha sua Data de Nascimento corretamente")]
